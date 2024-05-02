@@ -12,18 +12,6 @@
         <p>Texto de ejemplo sobre la empresa...</p>
     </section>
 
-    <section id="crear-usuario">
-        <h2>Crear Usuario y Contraseña</h2>
-        <form action="crear_usuario.php" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="correo">Correo:</label>
-            <input type="email" id="correo" name="correo" required>
-            <label for="contrasena">Contraseña:</label>
-            <input type="password" id="contrasena" name="contrasena" required>
-            <button type="submit">Crear Usuario</button>
-        </form>
-    </section>
 
     <section id="mantenimientos">
         <h2>Mantenimientos</h2>

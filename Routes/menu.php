@@ -4,8 +4,8 @@
 
     <nav>
         <ul>
-            <li><a href="#acerca">Acerca de la Empresa</a></li>
-            <li><a href="#crear-usuario">Crear Usuario y Contraseña</a></li>
+            <li><a href="index.php">Acerca de la Empresa</a></li>
+            <li><a href="Usuarios.php">Crear Usuario y Contraseña</a></li>
             <li><a href="#mantenimientos">Mantenimientos</a></li>
             <li><a href="#reportes">Reportes</a></li>
             <li><a href="#procesos">Procesos o Movimientos</a></li>
