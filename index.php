@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Módulo de Seguridad</h1>
+        <h1>Repuestos Escalante</h1>
     </header>
 
     <nav>
