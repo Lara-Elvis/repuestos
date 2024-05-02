@@ -6,7 +6,7 @@
         <nav>
             <ul>
                 <li><a href="index.php">Acerca de la Empresa</a></li>
-                <li><a href="Usuarios.php">Crear Usuario y Contraseña</a></li>
+                <li><a href="Usuarios.php">Usuarios</a></li>
                 <li><a href="Mantenimiento.php">Mantenimientos</a></li>
                 <li><a href="reportes.php">Reportes</a></li>
                 <li><a href="Procesos.php">Procesos o Movimientos</a></li>
