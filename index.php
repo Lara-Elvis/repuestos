@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <?php include("Routes/head.php")?>
+    <title>Módulo de Seguridad</title>
 </head>
 <body>
     <?php include("Routes/menu.php")?>
