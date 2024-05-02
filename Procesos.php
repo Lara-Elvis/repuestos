@@ -6,14 +6,14 @@
 </head>
 <body>
     <?php include("Routes/menu.php")?>
-    
-    <section id="procesos">
-        <h2>Procesos o Movimientos</h2>
-        <ul>
-            <li><a href="#facturacion">Facturación</a></li>
-        </ul>
-    </section>
-    
+    <div class="mantenimientoCaja">
+        <section id="procesos">
+            <h2>Procesos o Movimientos</h2>
+            <ul>
+                <li><a href="#facturacion">Facturación</a></li>
+            </ul>
+        </section>
+    </div>
     <footer>
         <p class="copyriht">Copyright&#169 2024 Frnacisco Escalante</p>
     </footer>

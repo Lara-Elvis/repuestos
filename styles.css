@@ -12,6 +12,13 @@ body {
     margin: 0 29% 0 0px;
 }
 
+.imagenTitulo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    transform: rotate(20deg);
+    box-shadow: 5px 5px #616060;
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -65,6 +72,12 @@ img{
     margin: 0 auto;
     align-items: center;
 }
+.imagen:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    transform: rotate(20deg);
+    box-shadow: 5px 5px #616060;
+}
 
 .parrafo_principal{
     text-align: center;
@@ -109,6 +122,40 @@ form button {
 
 form button:hover {
     background-color: #555;
+}
+
+.mantenimientoCaja{
+    margin-top: 100px;
+    margin-bottom: 170px;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+section ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li{
+    display: inline;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+section ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+section ul li a:hover{
+    transition: 1.2s;
+    border-radius: 10px;
+    background: #ddd;
+    margin: 10px 40px;
 }
 
 
