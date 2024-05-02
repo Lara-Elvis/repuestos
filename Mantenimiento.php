@@ -13,5 +13,9 @@
             <li><a href="#productos">Productos</a></li>
         </ul>
     </section>
+
+    <footer>
+        <p class="copyriht">Copyright&#169 2024 Frnacisco Escalante</p>
+    </footer>
 </body>
 </html>

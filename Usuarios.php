@@ -18,5 +18,9 @@
             <button type="submit">Crear Usuario</button>
         </form>
     </section>
+
+    <footer>
+        <p class="copyriht">Copyright&#169 2024 Frnacisco Escalante</p>
+    </footer>
 </body>
 </html>
