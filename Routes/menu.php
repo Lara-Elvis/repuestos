@@ -8,6 +8,6 @@
             <li><a href="Usuarios.php">Crear Usuario y Contraseña</a></li>
             <li><a href="Mantenimiento.php">Mantenimientos</a></li>
             <li><a href="reportes.php">Reportes</a></li>
-            <li><a href="#procesos">Procesos o Movimientos</a></li>
+            <li><a href="Procesos.php">Procesos o Movimientos</a></li>
         </ul>
     </nav>
