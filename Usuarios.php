@@ -16,6 +16,12 @@
                 <input type="email" id="correo" name="correo" required>
                 <label for="contrasena">Contraseña:</label>
                 <input type="password" id="contrasena" name="contrasena" required>
+                <label for="tipo_usuario">Tipo de Usuario:</label>
+                <select name="tipo_usuario" id="tipo_usuario">
+                    <option value="1">Administrador</option>
+                    <option value="2">Contable</option>
+                    <option value="3">Técnico</option>
+                </select>
                 <button type="submit">Crear Usuario</button>
             </form>
         </section>
@@ -33,6 +39,7 @@
     <div class="usuarios">
         <section>
             <h1>Ver Usuarios</h1>
+            <?php include("mostrar_usuarios.php")?>
         </section>
     </div>
 
