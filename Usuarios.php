@@ -23,7 +23,7 @@
     <div class="usuarios">
         <section>
             <h1>Eliminar usuario</h1>
-            <form action="Eliminar usuario" method="POST">
+            <form action="eliminar_usuario.php" method="POST">
                 <label for="IdUsuario">Id:</label>
                 <input type="text" id="IdUsuario" name="IdUsuario" required>
                 <button type="submit">Eliminar</button>
