@@ -1,15 +1,29 @@
-    <div class="textoSuperior">
-        <header>
-            <img  class="imagenTitulo" src="imagenes/RepuestosSinFondo.png">
-            <h1>Repuestos Escalante</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.php">Acerca de la Empresa</a></li>
-                <li><a href="Usuarios.php">Usuarios</a></li>
-                <li><a href="Mantenimiento.php">Mantenimientos</a></li>
-                <li><a href="reportes.php">Reportes</a></li>
-                <li><a href="Procesos.php">Procesos o Movimientos</a></li>
-            </ul>
-        </nav>
-    </div>
+<?php
+// Iniciar sesión si no está iniciada
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Obtener información del usuario si está disponible en la sesión
+$user = isset($_SESSION['user']) ? $_SESSION['user'] : null;
+?>
+
+<div class="textoSuperior">
+    <header>
+        <img class="imagenTitulo" src="imagenes/RepuestosSinFondo.png">
+        <h1>Repuestos Escalante</h1>
+        <?php if ($user) : ?>
+            <p><?php echo $user['Nombre']; ?></p> <!-- Mostrar el nombre del usuario -->
+        <?php endif; ?>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="inicio.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Acerca de la Empresa</a></li>
+            <li><a href="Contenido.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Usuarios</a></li>
+            <li><a href="ContenidoMantenimiento.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Mantenimientos</a></li>
+            <li><a href="Evaluareporte.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Reportes</a></li>
+            <li><a href="Procesos.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Procesos o Movimientos</a></li>
+            <li><a href="logout.php">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+</div>

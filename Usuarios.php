@@ -5,7 +5,7 @@
     <title>Usuarios</title>
 </head>
 <body>
-    <?php include("Routes/menu.php")?>
+<?php include("Routes/menu.php")?>
     <div class="usuarios">
         <section id="crear-usuario">
             <h2>Crear Usuario y Contraseña</h2>
@@ -44,7 +44,9 @@
     </div>
 
     <footer>
-        <p class="copyriht">Copyright&#169 2024 Frnacisco Escalante</p>
+        <p class="copyriht">Copyright&#169 2024 Francisco Escalante</p>
     </footer>
+
+
 </body>
 </html>

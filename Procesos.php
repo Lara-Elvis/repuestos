@@ -15,7 +15,7 @@
         </section>
     </div>
     <footer>
-        <p class="copyriht">Copyright&#169 2024 Frnacisco Escalante</p>
+        <p class="copyriht">Copyright&#169 2024 Francisco Escalante</p>
     </footer>
 </body>
 </html>
