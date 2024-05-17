@@ -10,8 +10,8 @@
         <section id="mantenimientos">
             <h2>Mantenimientos</h2>
             <ul>
-                <li><a href="#clientes">Clientes</a></li>
-                <li><a href="#productos">Productos</a></li>
+                <li><a href="clientes.php">Clientes</a></li>
+                <li><a href="productosman.php">Productos</a></li>
             </ul>
         </section>
     </div>

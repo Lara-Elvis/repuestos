@@ -19,10 +19,8 @@ $user = isset($_SESSION['user']) ? $_SESSION['user'] : null;
     <nav>
         <ul>
             <li><a href="inicio.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Acerca de la Empresa</a></li>
-            <li><a href="Contenido.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Usuarios</a></li>
-            <li><a href="ContenidoMantenimiento.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Mantenimientos</a></li>
-            <li><a href="Evaluareporte.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Reportes</a></li>
-            <li><a href="Procesos.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Procesos o Movimientos</a></li>
+            <li><a href="procesos.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Procesos o movimientos</a></li>
+            <li><a href="facturacion.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Facturación</a></li>
         </ul>
     </nav>
 </div>

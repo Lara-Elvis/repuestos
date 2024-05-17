@@ -10,7 +10,7 @@
         <section id="procesos">
             <h2>Procesos o Movimientos</h2>
             <ul>
-                <li><a href="#facturacion">Facturación</a></li>
+                <li><a href="facturacion.php">Facturación</a></li>
             </ul>
         </section>
     </div>

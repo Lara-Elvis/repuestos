@@ -8,6 +8,7 @@
 <?php include("Routes/menu.php")?>
     <div class="usuarios">
         <section id="crear-usuario">
+            <h1>Bienvenido a Usuarios</h1>
             <h2>Crear Usuario y Contraseña</h2>
             <form action="crear_usuario.php" method="POST">
                 <label for="nombre">Nombre:</label>

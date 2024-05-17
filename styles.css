@@ -9,13 +9,13 @@ body {
     padding: 0;
     width: 100px;
     height: 100px;
-    margin: 0 29% 0 0px;
+    margin: 0 29% 0 12px;
 }
 
 .imagenTitulo:hover{
     transition: 1s;
     transform: scale(1.1);
-    transform: rotate(20deg);
+    transform: rotate(20deg);;
     box-shadow: 5px 5px #616060;
 }
 
@@ -25,12 +25,32 @@ header {
     text-align: center;
     padding: 20px 0;
     display: flex;
-    text-align: center;
 }
 
 .textoSuperior{
     position: relative;
 }
+
+.textoSuperior p{
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-bottom: 35px;
+    padding: 10px;
+    border-radius: 10px;;
+    background: #787575;
+}
+.textoSuperior p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.textoSuperior p:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 4px #616060;
+    cursor: pointer;
+}
+
 
 nav{
     position: absolute;
@@ -55,6 +75,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    transition: 1s;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 15px;
     background-color: #ddd;
 }
 
