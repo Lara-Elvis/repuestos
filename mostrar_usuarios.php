@@ -15,7 +15,7 @@ if ($result->num_rows > 0) {
     // Mostrar los usuarios en una tabla
     echo "<h1>Lista de Usuarios</h1>";
     echo "<table border='1'>";
-    echo "<tr><th>ID</th><th>Nombre</th><th>Correo</th><th>Tipo de Usuario</th><th>Acciones</th></tr>";
+    echo "<tr><th>ID</th><th>Nombre</th><th>Correo</th><th>Tipo de Usuario</th><th>Cambiar tipo de usuario</th></tr>";
     while ($row = $result->fetch_assoc()) {
         echo "<tr>";
         echo "<td>" . $row["IdUsuario"] . "</td>";
