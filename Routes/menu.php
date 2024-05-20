@@ -22,7 +22,7 @@ $user = isset($_SESSION['user']) ? $_SESSION['user'] : null;
             <li><a href="Contenido.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Usuarios</a></li>
             <li><a href="ContenidoMantenimiento.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Mantenimientos</a></li>
             <li><a href="Evaluareporte.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Reportes</a></li>
-            <li><a href="Procesos.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Procesos o Movimientos</a></li>
+            <li><a href="movimientosProcesos.php<?php echo $user ? '?id=' . $user['IdUsuario'] : ''; ?>">Procesos o Movimientos</a></li>
         </ul>
     </nav>
 </div>
